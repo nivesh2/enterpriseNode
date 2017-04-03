@@ -1,6 +1,6 @@
 const router = require('express').Router();
 
-const { requestLogger, authorization } = rootRequire('./web').middleware;
+const { requestLogger, authorization } = require('../middleware');
 
 /* mount all the components here
  * - order matters
